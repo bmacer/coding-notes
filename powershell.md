@@ -74,3 +74,18 @@ Make web request
 For each and if example (range 1-50, make web request return only if content doesn't equal 59)
 
     foreach ($i in (1..50)) {$res = (Invoke-WebRequest 127.0.0.1:9999/$i); if($res.RawContentLength -ne 59) {echo $i};} 
+Example POST request
+
+    Invoke-WebRequest -Method POST -Body @{my-key="my-value"} 127.0.0.1:123/3
+Connect to a TCP stream
+
+    $tcpClient = [Net.Sockets.TcpClient]::new("127.0.0.1", "1234")
+    $tcpStream = $tcpClient.GetStream()
+    $reader = [IO.StreamReader]::new($tcpStream)i
+    Write-Host $reader.ReadLine()
+Get hidden file info
+
+    getfattr -R -n ntfs.streams.list /Windows/file.txt
+Access hidden file
+
+    Get-Content /Windows/pulic_file.txt:hidden_file.db
