@@ -61,3 +61,6 @@ search files including filename (-n):
 see cron options (files/folders)
 
         cat /etc/cron*
+find folders/files with non-root permissions
+
+        find /etc -not -group root -user root 2>/dev/null
