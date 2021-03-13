@@ -58,3 +58,6 @@ shift letters
 search files including filename (-n):
 
         grep -n hello -R /tmp 2>/dev/null 
+see cron options (files/folders)
+
+        cat /etc/cron*
