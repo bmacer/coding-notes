@@ -52,9 +52,9 @@ find all files of a certain name while trashing permission errors
 searching files for a string inside file (recursively) while trashing errors
 
         grep abcDEF -R /var/* 2>/dev/null
-20. shift letters
+shift letters
 
         echo "hello" | tr '[a-z]' '[n-za-m]' | tr '[A-Z]' '[N-ZA-M]'
-21. search files including filename (-n):
+search files including filename (-n):
 
         grep -n hello -R /tmp 2>/dev/null 
