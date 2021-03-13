@@ -64,3 +64,9 @@ see cron options (files/folders)
 find folders/files with non-root permissions
 
         find /etc -not -group root -user root 2>/dev/null
+ 
+create ncat listener
+
+        nc -nvlp 2312 (n is numeric-only, v is verbose, l is listen, p is port)
+        nc -nlvubp 3454 (u is udp and b allows broadcast)
+
