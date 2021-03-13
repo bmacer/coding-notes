@@ -1,5 +1,5 @@
-1. find operating system
-  cat /etc/os-release
+find operating system
+    cat /etc/os-release
 
-2. get current logged in user
-  whoami
+get current logged in user
+    whoami
