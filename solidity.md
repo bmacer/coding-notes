@@ -36,3 +36,4 @@ send money to someone (address is ad)
 
     ad.send(web3.utils.toWei("0.1", "ether"));
     ad.send(0.1 * 10**-18);
+    ad.transfer(address(this).balance);
