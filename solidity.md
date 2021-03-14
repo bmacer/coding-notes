@@ -37,3 +37,19 @@ send money to someone (address is ad)
     ad.send(web3.utils.toWei("0.1", "ether"));
     ad.send(0.1 * 10**-18);
     ad.transfer(address(this).balance);
+factory example
+
+    contract GameFactory {
+        address[] public deployedGames;
+
+        function createRPS(uint wager) public {
+            address game = new RockPaperGame(wager, msg.sender);
+            deployedRPS.push(game);
+        }
+
+        function getActiveGames() public view returns (address[]) {
+            return deployedGames;
+        }
+    }
+
+    contract Game {...}
