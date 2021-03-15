@@ -1,3 +1,11 @@
+setup steps:
+- npm init
+- npm install --save ganache-cli mocha solc fs-extra web3[@1.0.0-beta.35]
+- create etheruem folder
+- create compile.js file
+- create deploy.js file
+- create contracts folder and contract .sol file(s)
+
 what variable comes built in to the Contract, for retrieving address?
 
     msg
