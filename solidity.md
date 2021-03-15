@@ -5,6 +5,25 @@ setup steps:
 - create compile.js file
 - create deploy.js file
 - create contracts folder and contract .sol file(s)
+- copy in contract
+
+compile file:
+- require path, solc, fs
+- get ref to build dir (path.resolve)
+- delete folder and contents (fs.removeSync)
+- get path to contracts folder (path.resolve)
+- read file (fs.readFileSync w utf8)
+- compile (solc.compile(source, 1).contracts)
+- recreate build folder (fs.ensureDirSync)
+- iterate through to write files to build dir (fs.outputJsonSync(path..., contract))
+
+fix new compiler issue:
+
+    https://stackoverflow.com/questions/53353167/npm-solc-assertionerror-err-assertion-invalid-callback-specified
+
+add license identifier:
+
+    // SPDX-License-Identifier: MIT
 
 what variable comes built in to the Contract, for retrieving address?
 
