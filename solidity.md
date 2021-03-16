@@ -61,9 +61,23 @@ test file:
 - require built json files
 - declare vars
 - beforeEach: get accounts
-- beforeEach: build factory (web3.eth.Contract(parsed_interface).deploy({data:bytecode}).send({from/gas}))
+- beforeEach: build factory (web3.eth.Contract(parsed_interface).deploy({data:bytecode}).send({from/gas})) [[see #3]]
 - build describe -> it tests
--  
+
+#3
+
+    beforeEach( async () => {
+      accounts = await web3.eth.getAccounts();
+      factory = await new web3.eth.Contract(jsonCompiledFactory.abi)
+        .deploy({
+          data: jsonCompiledFactory.evm.bytecode.object,
+          // arguments: [10, accounts[0]]
+        })
+        .send(  {
+          from: accounts[0],
+          gas: "3000000",
+        });
+    })
 
 TODO deploy file:
 
