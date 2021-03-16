@@ -17,6 +17,11 @@ compile file:
 - recreate build folder (fs.ensureDirSync)
 - iterate through to write files to build dir (fs.outputJsonSync(path..., contract))
 
+TODO test file:
+
+TODO deploy file:
+
+
 fix new compiler issue:
 
     https://stackoverflow.com/questions/53353167/npm-solc-assertionerror-err-assertion-invalid-callback-specified
