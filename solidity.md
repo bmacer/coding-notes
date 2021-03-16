@@ -8,14 +8,37 @@ setup steps (local, after creating on remix):
 - copy in contract
 
 compile file:
+- check licensing line is in .sol file: // SPDX-License-Identifier: MIT
 - require path, solc, fs
 - get ref to build dir (path.resolve)
 - delete folder and contents (fs.removeSync)
 - get path to contracts folder (path.resolve)
 - read file (fs.readFileSync w utf8)
+- define input (see below #1)
 - compile (solc.compile(source, 1).contracts)
 - recreate build folder (fs.ensureDirSync)
 - iterate through to write files to build dir (fs.outputJsonSync(path..., contract))
+
+#1
+
+    const input = {
+      language: 'Solidity',
+      sources: {
+        'Rps.sol': {
+          content: source
+        }
+      },
+      settings: {
+        outputSelection: {
+          '*': {
+            '*': ['*']
+          }
+        }
+      }
+    }
+    
+
+
 
 TODO test file:
 
