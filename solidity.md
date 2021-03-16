@@ -15,9 +15,9 @@ compile file:
 - get path to contracts folder (path.resolve)
 - read file (fs.readFileSync w utf8)
 - define input (see below #1)
-- compile (solc.compile(source, 1).contracts)
+- compile (solc.compile)
 - recreate build folder (fs.ensureDirSync)
-- iterate through to write files to build dir (fs.outputJsonSync(path..., contract))
+- iterate through to write files to build dir (fs.outputJsonSync(path..., contract)) (see below #2)
 
 #1
 
@@ -37,7 +37,20 @@ compile file:
       }
     }
     
+#2
 
+    const compiled = solc.compile(JSON.stringify(input))
+    contracts = JSON.parse(compiled).contracts;
+
+    for(let fn of Object.keys(contracts)) {
+      for(let con of Object.keys(contracts[fn])) {
+        //let bytecode = contracts[fn][con].evm.bytecode.object;
+        fs.outputJsonSync(
+          path.resolve(__dirname, "build", `${con.replace(":", "")}.json`),
+          JSON.stringify(contracts[fn][con])
+        )
+      }
+    }
 
 
 TODO test file:
