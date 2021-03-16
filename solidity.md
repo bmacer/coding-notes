@@ -52,8 +52,18 @@ compile file:
       }
     }
 
-
-TODO test file:
+test file:
+- update package.json ("test": "mocha")
+- create test folder
+- create test files
+- require assert, ganache-cli, web3
+- instantiate web3 with ganache provider
+- require built json files
+- declare vars
+- beforeEach: get accounts
+- beforeEach: build factory (web3.eth.Contract(parsed_interface).deploy({data:bytecode}).send({from/gas}))
+- build describe -> it tests
+-  
 
 TODO deploy file:
 
