@@ -1,3 +1,6 @@
+install next
+
+    npm install next react react-dom
 install express
 
     npm install express
