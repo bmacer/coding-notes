@@ -1,3 +1,10 @@
+found below
+- setup steps
+- build the compile file
+- create the test file
+- create the deploy file
+- random questions
+
 setup steps (local, after creating on remix):
 - npm init
 - npm install --save ganache-cli mocha solc fs-extra web3[@1.0.0-beta.35] truffle-hdwallet-provider
@@ -6,8 +13,6 @@ setup steps (local, after creating on remix):
 - create deploy.js file
 - create contracts folder and contract .sol file(s)
 - copy in contract
-
-
 
 fix new compiler issue:
 
@@ -116,6 +121,7 @@ deploy file:
 - also use web3 to construct and deploy Contract, passing in interface (.abi)
 - .deploy it with the data: bytecode (.evm.bytecode.object)
 - .send from account and with 3m gas
+- be sure to save to variable then console.log the address (.options.address)
 
 
 
