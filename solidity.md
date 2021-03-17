@@ -129,11 +129,15 @@ deploy file:
 set up front end
 - npm install next, react and react-dom
 - create pages folder
-- create files in that pages folder
+- create files in that pages folder (index.js for home page)
 - import react
 - export default, anonymous function returning some html
 - add script to package.json "dev": "next dev"
 - npm run dev to test
+- get web3 set up: new file ethereum/web3.js
+- require web3
+- instantiate web3 with built-in provider (window.web3.provider)
+- export this web3
 - 
 
 what variable comes built in to the Contract, for retrieving address?
