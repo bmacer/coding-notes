@@ -78,7 +78,22 @@ test file:
           gas: "3000000",
         });
     })
+#4
 
+    describe("campaign factory", () => {
+      it("creates a factory", () => {
+        assert.ok(factory.options.address);
+      });
+      it("creates a campaign", async () => {
+        campaign = await factory.methods.createCampaign(1).send({
+          from: accounts[0],
+          gas: '3000000',
+        });
+        campaignAddress = await factory.methods.deployedCampaigns(0).call({ from: accounts[0] });
+        console.log("campaign addresss:", campaignAddress);
+        assert.ok(campaignAddress);
+      })
+    })
 TODO deploy file:
 
 
