@@ -1,12 +1,21 @@
 setup steps (local, after creating on remix):
 - npm init
-- npm install --save ganache-cli mocha solc fs-extra web3[@1.0.0-beta.35]
+- npm install --save ganache-cli mocha solc fs-extra web3[@1.0.0-beta.35] truffle-hdwallet-provider
 - create etheruem folder
 - create compile.js file
 - create deploy.js file
 - create contracts folder and contract .sol file(s)
 - copy in contract
 
+
+
+fix new compiler issue:
+
+    https://stackoverflow.com/questions/53353167/npm-solc-assertionerror-err-assertion-invalid-callback-specified
+
+add license identifier:
+
+    // SPDX-License-Identifier: MIT
 compile file:
 - check licensing line is in .sol file: // SPDX-License-Identifier: MIT
 - require path, solc, fs
@@ -62,7 +71,7 @@ test file:
 - declare vars
 - beforeEach: get accounts
 - beforeEach: build factory (web3.eth.Contract(parsed_interface).deploy({data:bytecode}).send({from/gas})) [[see #3]]
-- build describe -> it tests
+- build describe -> it tests [[see #4]]
 
 #3
 
@@ -94,16 +103,24 @@ test file:
         assert.ok(campaignAddress);
       })
     })
-TODO deploy file:
+
+deploy file:
+- get api keys from infura.io
+- get endpoint url (change to rinkeby test net)
+- require truffle-hd-wallet-provider
+- require web3 (big W)
+- require the built json
+- initialize HDWalletProvider with "12 words" and endpoint as args
+- initialize lowercase web3 with provider above
+- initialize deploy variable as async function getting accounts
+- also use web3 to construct and deploy Contract, passing in interface (.abi)
+- .deploy it with the data: bytecode (.evm.bytecode.object)
+- .send from account and with 3m gas
 
 
-fix new compiler issue:
 
-    https://stackoverflow.com/questions/53353167/npm-solc-assertionerror-err-assertion-invalid-callback-specified
 
-add license identifier:
 
-    // SPDX-License-Identifier: MIT
 
 what variable comes built in to the Contract, for retrieving address?
 
