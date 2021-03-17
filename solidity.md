@@ -126,7 +126,15 @@ deploy file:
 
 
 
-
+set up front end
+- npm install next, react and react-dom
+- create pages folder
+- create files in that pages folder
+- import react
+- export default, anonymous function returning some html
+- add script to package.json "dev": "next dev"
+- npm run dev to test
+- 
 
 what variable comes built in to the Contract, for retrieving address?
 
