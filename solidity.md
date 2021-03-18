@@ -136,9 +136,25 @@ set up front end
 - npm run dev to test
 - get web3 set up: new file ethereum/web3.js
 - require web3
-- instantiate web3 with built-in provider (window.web3.provider)
+- instantiate web3.js with built-in provider (window.web3.provider) if exists or our own provider (via infura) if not
 - export this web3
-- 
+- import this into new factory.js to instantiate contract (web3.eth.Contract) and export
+- build index.js: import React, { Component }
+- build index.js: define class with extends, create async componentDidMount method and render method
+- build index.js: [for nextJs] move componentDidMount to static async getInitialProps method
+- build index.js: export class  
+- build index.js: access props from getInitialProps inside this.props
+
+add semantic-ui-react
+- npm install semantic-ui-react semantic-ui-css
+- import semantic css (import 'semantic-ui-css/semantic.min.css')
+- import buttons, other elements as needed (https://react.semantic-ui.com/elements/button/#types-labeled-icon)
+- example: <Button content="Create Campaign" primary={true} icon="add circle"></Button>
+- add components folder and Layouts.js file
+- add an export default props, create Layout framework
+- inject {props.children} where defined
+- import parent and wrap in Layout tag 
+
 
 what variable comes built in to the Contract, for retrieving address?
 
