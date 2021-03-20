@@ -156,6 +156,8 @@ add semantic-ui-react
 - import parent and wrap in Layout tag 
 
 
+TODO: how to add custom css to project in react/nextjs
+
 what variable comes built in to the Contract, for retrieving address?
 
     msg
