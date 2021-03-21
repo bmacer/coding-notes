@@ -12,3 +12,6 @@
 
 20 mar 2021
 - practice with semantic-ui-react
+
+21 mar 2021
+- discovered "fractional" nft project, looks quite interesting, read up on discord
