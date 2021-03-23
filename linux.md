@@ -1,3 +1,6 @@
+convert hex to ascii
+
+        echo 0x6d696b6549734d794e616d65 | xxd -p -r
 find operating system
 
         cat /etc/os-release
