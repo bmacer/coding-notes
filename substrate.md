@@ -1,12 +1,14 @@
 working through [create your first substrate chain](https://substrate.dev/docs/en/tutorials/create-your-first-substrate-chain/) tutorial.
 
+intro suggestions:
+- you can change user in top-right
+
 nick pallet q:
 - Cargo.toml <-- one change (this is actually two changes)
 - fix "this is important to enable" -> "it is important to enable"
 - quick mention what nicks pallet does
 - Before moving on, check that the new dependencies resolve correctly by running: (add expected time/result)
 - /// Already in your template for Ballances: (misspelled) https://substrate.dev/docs/en/tutorials/add-a-pallet/configure-a-pallet
-- 
 
 [install](https://substrate.dev/docs/en/knowledgebase/getting-started/)
 - install and update brew
