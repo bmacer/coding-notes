@@ -1,7 +1,12 @@
 get documentation on all used libraries
 
     cargo doc --open
- 
+
+create and copy a string
+
+    let s1 = String::from("hello");
+    let s2 = s1.clone();
+
 for loops
 
     for number in (1..4).rev()
