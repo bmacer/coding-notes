@@ -1,3 +1,29 @@
+get documentation on all used libraries
+
+    cargo doc --open
+
+
+create loop
+
+    loop {...}
+
+get a random 8-bit number
+
+    let r: u8 = rand::random();
+
+checking greater/less/equal logic
+
+    use std::cmp::Ordering;
+    match guess.cmp(&correct) {
+        Ordering::Less => println!("too low"),
+        Ordering::Greater => println!("too high"),
+        Ordering::Equal => println!("right on!"),
+        }
+
+why use shadowing?
+
+    re-"let" a variable to change it but prevent future (non-letted) changes, also change types
+
 compile rust file
 
     rustc main.rs
@@ -27,3 +53,8 @@ get user input for guess
     io::stdin()
       .read_line(&mut guess)
       .expect("error reading line");
+random module
+
+    use rand::Rng;
+    let num = rand::thread_rng().gen_range(1, 101);
+
