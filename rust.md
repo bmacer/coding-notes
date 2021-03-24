@@ -1,7 +1,19 @@
 get documentation on all used libraries
 
     cargo doc --open
+ 
+for loops
 
+    for number in (1..4).rev()
+    for element in a.iter()
+    
+you can break with an expression
+
+    break counter * 2;
+
+ternary operator with let
+
+    let number = if condition { 5 } else { 6 };
 
 create loop
 
