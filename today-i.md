@@ -25,4 +25,7 @@
 
 25 mar 2021
 - chapter 5 of rust book: structs, defining and instantiating, struct update syntax, tuple structs, :? and :#? specifiers, deriving Debug, implementing instance methods and helper functions
+- 6.1 of rust book: basics of enum, defining and implementing, storing data in enum, different values, defining methods, and first intro to Option<T> 
+- 6.2 match operator with enums, match with Option<T> to act only on existence, and the _ placeholder for catchall matching
+
 
