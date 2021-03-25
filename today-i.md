@@ -21,5 +21,8 @@
 - worked through intro substrate tutorial
 
 24 mar 2021
-- thru chapter 4 of rust book
+- thru chapter 4 of rust book (ownership and referencing)
+
+25 mar 2021
+- chapter 5 of rust book: structs, defining and instantiating, struct update syntax, tuple structs, :? and :#? specifiers, deriving Debug, implementing instance methods and helper functions
 
