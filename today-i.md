@@ -28,5 +28,7 @@
 - 6.1 of rust book: basics of enum, defining and implementing, storing data in enum, different values, defining methods, and first intro to Option<T> 
 - 6.2 match operator with enums, match with Option<T> to act only on existence, and the _ placeholder for catchall matching
 - 6.3 if let for single-match cases (loses some thorough checking)
-
+- 7.1 basics of package and crate (library and binary) definitions
+- 7.2 modules and code tree structure
+- 7.3 pub keyword, need practice with
 
