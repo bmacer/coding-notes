@@ -15,3 +15,11 @@
 
 21 mar 2021
 - discovered "fractional" nft project, looks quite interesting, read up on discord
+
+23 mar 2021
+- endeavoring to work through the rust book
+- worked through intro substrate tutorial
+
+24 mar 2021
+- thru chapter 4 of rust book
+
