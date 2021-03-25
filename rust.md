@@ -2,6 +2,10 @@ get documentation on all used libraries
 
     cargo doc --open
 
+how do you catch-all with a match case?
+
+    _ => (),
+
 struct update syntax
 
     fn main() {
