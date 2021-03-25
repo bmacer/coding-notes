@@ -2,6 +2,25 @@ get documentation on all used libraries
 
     cargo doc --open
 
+struct update syntax
+
+    fn main() {
+        let u1 = User {
+            username: String::from("brandon"),
+            active: true,
+        };
+        let u2 = User {
+            username: String::from("anya"),
+            ..u1
+        };
+        println!("u2 name: {}, u2 active: {}", u2.username, u2.active);
+    }
+
+struct User {
+    username: String,
+    active: bool,
+}
+
 create and copy a string
 
     let s1 = String::from("hello");
