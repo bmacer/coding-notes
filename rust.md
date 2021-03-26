@@ -2,6 +2,16 @@ get documentation on all used libraries
 
     cargo doc --open
 
+create a new vector and add to it
+
+    let mut v: Vec<i32> = Vec::new();
+    let mut v2 = vec![1, 2, 3];
+    v2.push(4);
+
+use multiple items from the same module...
+
+    use std::{cmp::Ordering, io};
+
 how do you catch-all with a match case?
 
     _ => (),
