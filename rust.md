@@ -2,6 +2,11 @@ get documentation on all used libraries
 
     cargo doc --open
 
+
+update a HashMap only if it doesn't have a value
+
+    scores.entry(String::from("Yellow")).or_insert(50);
+
 create a new vector and add to it
 
     let mut v: Vec<i32> = Vec::new();
