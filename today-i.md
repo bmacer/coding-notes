@@ -30,5 +30,8 @@
 - 6.3 if let for single-match cases (loses some thorough checking)
 - 7.1 basics of package and crate (library and binary) definitions
 - 7.2 modules and code tree structure
-- 7.3 pub keyword, need practice with
-
+- 7.3 pub keyword
+- 7.4 the use statement
+- 7.5 splitting modules into different files
+- 8.1 vectors, creating, pushing, accessing values, updating values
+- 8.2 strings, combining strings, bytes, chars and grapheme clusters, slicing strings
