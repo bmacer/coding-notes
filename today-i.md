@@ -42,3 +42,4 @@
 - 9.1 panic!
 - 9.2 Result<T, E>... will need to revisit a few more times
 - 9.3 panic vs Result... build error checks into structs
+- 10.1 generics in structs, enums, methods
