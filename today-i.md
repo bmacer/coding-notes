@@ -35,3 +35,4 @@
 - 7.5 splitting modules into different files
 - 8.1 vectors, creating, pushing, accessing values, updating values
 - 8.2 strings, combining strings, bytes, chars and grapheme clusters, slicing strings
+- 8.3 HashMaps
