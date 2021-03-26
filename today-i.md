@@ -36,3 +36,9 @@
 - 8.1 vectors, creating, pushing, accessing values, updating values
 - 8.2 strings, combining strings, bytes, chars and grapheme clusters, slicing strings
 - 8.3 HashMaps
+
+26 mar 2021
+- reviewed exercises related to ch 1-8 topics
+- 9.1 panic!
+- 9.2 Result<T, E>... will need to revisit a few more times
+- 9.3 panic vs Result... build error checks into structs
