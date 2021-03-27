@@ -43,3 +43,20 @@
 - 9.2 Result<T, E>... will need to revisit a few more times
 - 9.3 panic vs Result... build error checks into structs
 - 10.1 generics in structs, enums, methods
+
+27 mar 2021
+- created a minute pull request on substrate doc :-)
+- watched [video](https://www.youtube.com/watch?v=k4LFMcMSJVc) with dan shields.  lovely overview of the sales pitch for using substrate (modular and inter-operable chain-building
+- watched [video](https://www.youtube.com/watch?v=47mL30nePLU) with dan forbes.  great for the community of web3/polkadot/multi-chain/decentralized life, particular with regards to community governance
+- second run-through of [add a pallet to your runtime](https://substrate.dev/docs/en/tutorials/add-a-pallet/) tutorial for nicks pallet, played some
+- first run-through of [build a poe decentralized application](https://substrate.dev/docs/en/tutorials/build-a-dapp/) tutorial for "owning" files.  really pretty awesome to see.
+
+
+TODOs:
+- keep with some PRs for docs if they keep getting approved :-)
+- keep up on discord chat for substrate doc
+- keep up on discord chat for microNFT project
+- keep reviewing stack overflow for substrate
+- keep trudging through rust book and reiterating practice
+- keep going through substrate tutorials
+- check out substrate recipes
