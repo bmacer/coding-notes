@@ -51,8 +51,10 @@
 - second run-through of [add a pallet to your runtime](https://substrate.dev/docs/en/tutorials/add-a-pallet/) tutorial for nicks pallet, played some
 - first run-through of [build a poe decentralized application](https://substrate.dev/docs/en/tutorials/build-a-dapp/) tutorial for "owning" files.  really pretty awesome to see.
 - pretty thorough run-through of [start a private network](https://substrate.dev/docs/en/tutorials/start-a-private-network/) which i got working, i think.  not sure why if i have four nodes and kill the origin node it doesn't stay up...what's the point i guess?  but perhaps those answers will come to light.
-- 
+- 10.2 (rust book): traits and implementing them
 
+28 mar 2021
+- first run-through of [Write a Pallet in its Own Crate](https://substrate.dev/docs/en/tutorials/create-a-pallet/).  pretty simple, nothing too fancy or interesting, just a structural discussion
 
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
