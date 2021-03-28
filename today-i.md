@@ -50,6 +50,8 @@
 - watched [video](https://www.youtube.com/watch?v=47mL30nePLU) with dan forbes.  great for the community of web3/polkadot/multi-chain/decentralized life, particular with regards to community governance
 - second run-through of [add a pallet to your runtime](https://substrate.dev/docs/en/tutorials/add-a-pallet/) tutorial for nicks pallet, played some
 - first run-through of [build a poe decentralized application](https://substrate.dev/docs/en/tutorials/build-a-dapp/) tutorial for "owning" files.  really pretty awesome to see.
+- pretty thorough run-through of [start a private network](https://substrate.dev/docs/en/tutorials/start-a-private-network/) which i got working, i think.  not sure why if i have four nodes and kill the origin node it doesn't stay up...what's the point i guess?  but perhaps those answers will come to light.
+- 
 
 
 TODOs:
