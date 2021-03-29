@@ -55,6 +55,7 @@
 28 mar 2021
 - first run-through of [Write a Pallet in its Own Crate](https://substrate.dev/docs/en/tutorials/create-a-pallet/).  pretty simple, nothing too fancy or interesting, just a structural discussion
  10.2 (rust book): traits and implementing them
+- tried to get through the [hello world recipe](https://substrate.dev/recipes/runtime-printing.html), but it seems there's some versioning issues (using substrate 2.0, should be updated to 3.0).  i'm a bit new to figure that out, though i tried.  dependency hell.  will focus on tutorials and knowledge base for now.
 
 
 TODOs:
