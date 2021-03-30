@@ -57,6 +57,10 @@
  10.2 (rust book): traits and implementing them
 - tried to get through the [hello world recipe](https://substrate.dev/recipes/runtime-printing.html), but it seems there's some versioning issues (using substrate 2.0, should be updated to 3.0).  i'm a bit new to figure that out, though i tried.  dependency hell.  will focus on tutorials and knowledge base for now.
 
+29 mar 2021
+- 10.3 lifetimes.  Just read, didn't code along
+- read about IPFS, which is a distributed file sharing technology driven by hashing files, DAGs (hashing multiple files and folders and parts of files) and DHT (I think?  Distributed hashing table for finding your files.  This is libp2p).
+
 
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
