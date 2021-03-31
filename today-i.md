@@ -64,6 +64,9 @@
 30 mar 2021
 - read through of forkless upgrade substrate tutorial.  Need to implement myself, seems straightforward.
 
+31 mar 2021
+- 11.1 in rust book, testing.  Just read, need to practice coding.
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
