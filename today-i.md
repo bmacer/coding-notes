@@ -61,6 +61,8 @@
 - 10.3 lifetimes.  Just read, didn't code along
 - read about IPFS, which is a distributed file sharing technology driven by hashing files, DAGs (hashing multiple files and folders and parts of files) and DHT (I think?  Distributed hashing table for finding your files.  This is libp2p).
 
+30 mar 2021
+- read through of forkless upgrade substrate tutorial.  Need to implement myself, seems straightforward.
 
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
