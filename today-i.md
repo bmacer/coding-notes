@@ -66,6 +66,8 @@
 
 31 mar 2021
 - 11.1 in rust book, testing.  Just read, need to practice coding.
+- 11.2 organizing tests
+- 11.3 understanding how tests are run
 
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
