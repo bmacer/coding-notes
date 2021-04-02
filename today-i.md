@@ -71,6 +71,11 @@
 
 1 apr 2021
 - 12.1 cli tool command line input
+
+2 apr 2021
+- 12.2 reading a file
+- 12.3 refactor early.  Super interesting.  Do this many times.
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
