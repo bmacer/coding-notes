@@ -69,6 +69,8 @@
 - 11.2 organizing tests
 - 11.3 understanding how tests are run
 
+1 apr 2021
+- 12.1 cli tool command line input
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
