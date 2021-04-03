@@ -76,6 +76,9 @@
 - 12.2 reading a file
 - 12.3 refactor early.  Super interesting.  Do this many times.
 
+3 apr 2021
+- went through 12.2 and 12.3 live
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
