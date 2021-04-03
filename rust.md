@@ -2,6 +2,10 @@ get documentation on all used libraries
 
     cargo doc --open
 
+get args for CLI:
+
+    use std::env;
+    let args: Vec<String> = env::args().collect();
 
 update a HashMap only if it doesn't have a value
 
