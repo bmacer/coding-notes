@@ -78,6 +78,7 @@
 
 3 apr 2021
 - went through 12.2 and 12.3 live
+- worked through 12.4-12.6 live.  good practice, still need more
 
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
