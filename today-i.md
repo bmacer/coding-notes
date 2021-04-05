@@ -80,6 +80,9 @@
 - went through 12.2 and 12.3 live
 - worked through 12.4-12.6 live.  good practice, still need more
 
+4 apr 2021
+- 13.1 closures, pretty tough concept will need a fair amount of practice
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
