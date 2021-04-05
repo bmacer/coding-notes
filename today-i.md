@@ -83,6 +83,9 @@
 4 apr 2021
 - 13.1 closures, pretty tough concept will need a fair amount of practice
 
+5 apr 2021
+- 13.1 closures, slow crawl through the code but worth it.  practiced with HashMaps, some testing, lots of compiling-and-failing.  Gained some understanding of structs, the where clause, "type"ing, certainly a bit on closures.
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
