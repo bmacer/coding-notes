@@ -86,6 +86,8 @@
 5 apr 2021
 - 13.1 closures, slow crawl through the code but worth it.  practiced with HashMaps, some testing, lots of compiling-and-failing.  Gained some understanding of structs, the where clause, "type"ing, certainly a bit on closures.
 
+6 apr 2021
+- 13.2 iterators.  Need to walk through slowly.  First touch.
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
