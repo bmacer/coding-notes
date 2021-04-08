@@ -88,6 +88,11 @@
 
 6 apr 2021
 - 13.2 iterators.  Need to walk through slowly.  First touch.
+
+7 apr 2021
+- 13.3 improving io project.  Quick read, need practice
+
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
