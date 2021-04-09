@@ -95,6 +95,9 @@
 8 apr 2021
 - first try getting rust to read and parse a zip file.  Rough times lol.  Will get there.
 
+9 apr 2021
+- 13.4 comparing performance iterator vs for
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
