@@ -98,6 +98,9 @@
 9 apr 2021
 - 13.4 comparing performance iterator vs for
 
+10 apr 2021
+- ch 14 crates.io, publishing libs
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
