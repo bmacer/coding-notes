@@ -101,6 +101,9 @@
 10 apr 2021
 - ch 14 crates.io, publishing libs
 
+11 apr 2021
+- 15.1 using Box<T>
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
