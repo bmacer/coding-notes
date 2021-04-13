@@ -104,6 +104,9 @@
 11 apr 2021
 - 15.1 using Box<T>
 
+12 apr 2021
+- 15.2 started (deref)
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
