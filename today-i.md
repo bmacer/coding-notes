@@ -107,6 +107,10 @@
 12 apr 2021
 - 15.2 started (deref)
 
+13 apr 2021
+- revisited programming a guessing game (chapter 2)
+- revisited [create first substrate chain](https://substrate.dev/docs/en/tutorials/create-your-first-substrate-chain/)
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
