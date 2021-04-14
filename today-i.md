@@ -110,6 +110,8 @@
 13 apr 2021
 - revisited programming a guessing game (chapter 2)
 - revisited [create first substrate chain](https://substrate.dev/docs/en/tutorials/create-your-first-substrate-chain/)
+- found a couple video playlists to check out: (1) [polkadot technical explainers](https://www.youtube.com/playlist?list=PLOyWqupZ-WGuAuS00rK-pebTMAOxW41W8), (2) [blockchain fundamentals from web3](https://www.youtube.com/playlist?app=desktop&list=PLxVihxZC42nF_MCN9PTvZMIifRjx9cZ2J)
+- watched [video 1](https://www.youtube.com/watch?v=y8YyZELnVaw&list=PLxVihxZC42nF_MCN9PTvZMIifRjx9cZ2J&index=1) of 20 of blockchain fundamentals.  interesting for the history of blockchain, and it's gradual (not instant) evolution, and the failed attempts from before.  the ideas of the double-spend problem, proof of work, proving order with hashing.
 
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
