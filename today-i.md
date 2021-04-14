@@ -113,6 +113,14 @@
 - found a couple video playlists to check out: (1) [polkadot technical explainers](https://www.youtube.com/playlist?list=PLOyWqupZ-WGuAuS00rK-pebTMAOxW41W8), (2) [blockchain fundamentals from web3](https://www.youtube.com/playlist?app=desktop&list=PLxVihxZC42nF_MCN9PTvZMIifRjx9cZ2J)
 - watched [video 1](https://www.youtube.com/watch?v=y8YyZELnVaw&list=PLxVihxZC42nF_MCN9PTvZMIifRjx9cZ2J&index=1) of 20 of blockchain fundamentals.  interesting for the history of blockchain, and it's gradual (not instant) evolution, and the failed attempts from before.  the ideas of the double-spend problem, proof of work, proving order with hashing.
 
+14 apr 2021
+- revisited [importing nicks pallet](https://substrate.dev/docs/en/tutorials/add-a-pallet/) and [create a proof of existence application](https://substrate.dev/docs/en/tutorials/build-a-dapp/).  it continues to be a struggle to understand the Rust code, but i have a slightly better feel for it than i did before.  for example this is all levels of ugly
+
+      pub trait Config: frame_system::Config {
+          type Event: From<Event<Self>> + Into<<Self as frame_system::Config>::Event>;
+      }
+pub is public.  and we're configuring a trait, called Config, of the type Config as defined in frame_system.  and this trait has an Event type, which... i'm not sure...can be converted from itself into a base event?
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
