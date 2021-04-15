@@ -121,6 +121,8 @@
       }
 pub is public.  and we're configuring a trait, called Config, of the type Config as defined in frame_system.  and this trait has an Event type, which... i'm not sure...can be converted from itself into a base event?
 
+15 apr 2021
+- some fairly substantial practice with rust trying to build a diagnostic parser for work.  Getting zip file parsed.  Some hefty challenges.
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
