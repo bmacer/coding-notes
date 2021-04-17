@@ -123,6 +123,11 @@ pub is public.  and we're configuring a trait, called Config, of the type Config
 
 15 apr 2021
 - some fairly substantial practice with rust trying to build a diagnostic parser for work.  Getting zip file parsed.  Some hefty challenges.
+
+16 apr 2021
+- watched first 11 blockchain fundamental videos
+- more practice with rust on my diag parser script
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
