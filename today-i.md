@@ -139,3 +139,8 @@ TODOs:
 - keep trudging through rust book and reiterating practice
 - keep going through substrate tutorials
 - check out substrate recipes
+
+Rust need practice with:
+- generics
+- if let
+- while let
