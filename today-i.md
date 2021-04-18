@@ -128,6 +128,9 @@ pub is public.  and we're configuring a trait, called Config, of the type Config
 - watched first 11 blockchain fundamental videos
 - more practice with rust on my diag parser script
 
+17 apr 2021
+- progress on rustlings practice
+- 
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
