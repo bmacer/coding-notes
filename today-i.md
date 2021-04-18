@@ -146,3 +146,4 @@ Rust need practice with:
 - while let
 - closures (chapter 13 in rust book)
 - threads
+- what is "drop"?
