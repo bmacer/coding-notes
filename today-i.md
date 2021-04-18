@@ -144,3 +144,5 @@ Rust need practice with:
 - generics
 - if let
 - while let
+- closures (chapter 13 in rust book)
+- threads
