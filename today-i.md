@@ -147,3 +147,4 @@ Rust need practice with:
 - closures (chapter 13 in rust book)
 - threads
 - what is "drop"?
+- revisit "unwrap"
