@@ -130,7 +130,15 @@ pub is public.  and we're configuring a trait, called Config, of the type Config
 
 17 apr 2021
 - progress on rustlings practice
-- 
+
+18 apr 2021
+- about 15 videos done in blockchain fundamentals
+- 3 videos watched of web3 polkadot explainers.
+
+19 apr 2021
+- work on multi-tech parser for work (rust, lots of practice!)
+- submitted PR for rustlings
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
