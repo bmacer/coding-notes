@@ -139,6 +139,9 @@ pub is public.  and we're configuring a trait, called Config, of the type Config
 - work on multi-tech parser for work (rust, lots of practice!)
 - submitted PR for rustlings
 
+20 apr 2021
+- more building of the mega-parser, getting POC "versions" for each diagnostic file type.  slow and steady, trying to keep the code pretty-ish
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
