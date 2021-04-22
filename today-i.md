@@ -142,6 +142,9 @@ pub is public.  and we're configuring a trait, called Config, of the type Config
 20 apr 2021
 - more building of the mega-parser, getting POC "versions" for each diagnostic file type.  slow and steady, trying to keep the code pretty-ish
 
+21 apr 2021
+-lots more work on diagnostic parser.  learned about logging, getting to understand the relationship between files.  working on the methods available to Option and also iter.
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
