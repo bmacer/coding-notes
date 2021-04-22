@@ -145,6 +145,8 @@ pub is public.  and we're configuring a trait, called Config, of the type Config
 21 apr 2021
 -lots more work on diagnostic parser.  learned about logging, getting to understand the relationship between files.  working on the methods available to Option and also iter.
 
+22 apr 2021
+- more work on parser.  Trying to consider best practices.  Still getting stuck on ownership some, but thoughtful of methods on Option and Result.
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
