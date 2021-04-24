@@ -147,6 +147,14 @@ pub is public.  and we're configuring a trait, called Config, of the type Config
 
 22 apr 2021
 - more work on parser.  Trying to consider best practices.  Still getting stuck on ownership some, but thoughtful of methods on Option and Result.
+
+23 apr 2021
+- 15.2 deref
+
+
+
+
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
