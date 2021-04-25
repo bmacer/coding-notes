@@ -151,8 +151,11 @@ pub is public.  and we're configuring a trait, called Config, of the type Config
 23 apr 2021
 - 15.2 deref
 
+24 apr 2021
+- finished video playlists for polkadot tech explainers
 
-
+25 apr 2021
+- revisiting substrate tutorials
 
 
 TODOs:
