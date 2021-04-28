@@ -157,6 +157,8 @@ pub is public.  and we're configuring a trait, called Config, of the type Config
 25 apr 2021
 - revisiting substrate tutorials
 
+26 apr 2021
+- more work on diag parser, slowly getting more comfortable with rust
 
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
