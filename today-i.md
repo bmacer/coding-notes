@@ -160,6 +160,10 @@ pub is public.  and we're configuring a trait, called Config, of the type Config
 26 apr 2021
 - more work on diag parser, slowly getting more comfortable with rust
 
+28 apr 2021
+- hung up hard on concurrency.
+
+
 TODOs:
 - keep with some PRs for docs if they keep getting approved :-)
 - keep up on discord chat for substrate doc
